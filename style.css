@@ -1,350 +1,112 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
 }
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: rgb(239, 225, 225);
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background: url(Images/image.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-nav{
-    background: rgba(56, 15, 15, 0.732);
+.nav1{
+    width: 100%;
+    height: 100px;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 12px;
 }
-.nav-logo {
-    color: #ffffff;
-    display: flex;
-    font-family: sans-serif;
-    font-size: 1.6em;
-}
-.Portfolio{
-    color: rgb(4, 44, 44);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.nav-menu a{
-    text-decoration: none;
-    color: beige;
-    margin: 50px;
-    letter-spacing: 2px;
-    font-size: 1.4em;
-}
-.nav-menu a:hover{
-    
-    color: #b18686;
-    /* color: rgb(150, 137, 137); */
-    /* border-radius: 5px; */
-    /* padding: 5px 0px 10px 15px; */
-}
-main{
-    /* width: 100px;
-    height: 120vh; */
-     margin: 180px 140px;
-     /* width: 100%; */ 
-     /* margin-left: 100px; */
-}
-.frontpage{
-    display: inline flex;
-    gap: 20px;
-}
-
-.img{
-    position: relative;
-    margin-left: 150px;
-}
- /* .img:hover{
-    box-shadow: 0 0 25px var(--main-color),
-    0 0 50px var(--main-color),0 0 100px var(--main-color);
-}  */
-.home-content{
-    height: 60vh;
-    max-width: 100%;
-    margin-left: 100px;
-}
-
-.home-content h3{
-    color: rgba(16, 2, 2, 0.842);
-    font-size: 2em;
-
-}
-.home-content h1{
-    color:  rgba(66, 14, 14, 0.842);
-    font-size: 4em;
-    letter-spacing: 2px;
-}
-.fdev{
-    color:  rgba(66, 14, 14, 0.842);
-    display: inline flex;
-    font-size: 1.2em;
-}
-.home-content p{
-    font-size: 1.2em;
-    margin-right: 50%;
-    color: rgba(16, 2, 2, 0.842);
-    margin-top: 10px;
-    
-}
-.reachme a{
-    text-decoration: none;
-    color:white;
-    padding: 12px 10px;
-    font-size: 1.2em;
-    background: rgba(35, 2, 2, 0.732);
-    border-radius: 50%;
-   display: inline flex;
-   margin: 10px 0;
-   letter-spacing: 3px;
-}
-.reachme a:hover{
-    background-color: transparent;
-    color:  rgba(66, 14, 14, 0.842);
-}
-.buttn-box{
-    background:rgba(35, 2, 2, 0.732);
-    border-radius: 50px;
-    color: azure;
-    font-size: 1.4em;
-    padding: 10px 50px;
-    display: flex;
-    width: fit-content;
-    cursor: pointer;
-    
-}
-.buttn-box:hover{
-    background: transparent;
-    color: rgba(35, 2, 2, 0.732);
-}
-.about{
-    /* align-items: center; */
-    margin: 0 100px;
-    align-items: center;
-    /* display: flex;
-    flex-direction: column; */
-    /* height: 60vh; */
-    
-}
-.about-head{
-    background: rgba(35, 2, 2, 0.732);
-    border-radius: 5px;
-    padding: 10px 60px;
-    display: flex;
-    width: fit-content;
-    color: azure;
-    font-size: 2em;
-    letter-spacing: 2px;
-}
-.about p{
-    padding: 10px 12px 10px 2px;
-    align-content: center;
-    margin: 10px 10px;
-    width: 70%;
-    font-size: 1.2em;
-    letter-spacing: 1.1px;
-    /* display: flex; */
-}
-.skills{ 
-    margin: 50px 100px;
-    display: inline flex;
-    gap: 20px;
-    
-}
-.skills-head{
-    background: rgba(35, 2, 2, 0.732);
-    border-radius: 5px;
-    padding: 5px 60px;
-    display: flex;
-    width: fit-content;
-    color: azure;
-    font-size: 1.5em;
-    margin: 20px 10px;
-}
-.skills ul{
-    margin: 25px 25px;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    /* position: relative; */
-}
-.skills ul i{
-    display: inline flex;
-    background: rgba(35, 2, 2, 0.732);
-    color: azure;
-    letter-spacing: 2px;
-    
-}
-/* .projects a{
-    margin: 20px 100px;
-    text-decoration: none;
-    color: rgba(14, 3, 3, 0.732);
-    font-size: 1.2em;
-    display: flex;
-    cursor: pointer;
-} */
-/* .projects a:hover{
-    color: #ffffff; */
-    .projects{
-        display: flex;
-    margin: 40px 95px;
-    gap: 40px;
-
-        
-
-    }
-
-.projects-head{
-    
-    background: rgba(35, 2, 2, 0.732);
-    border-radius: 5px;
-    padding: 10px 10px;
-    /* display: flex; */
-    width: fit-content;
-    color: azure;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    
-
-
-}
-.projects ul{
-    margin: 15px 25px;
-    font-size: 1.2em;
-    letter-spacing: 1.5px;
-}
-.projects a{
-    text-decoration: none;
-    color: black;
-    /* padding: 10px 20px; */
-}
-
-.services{
-    margin-bottom: 20px;
-    /* margin: 70px 100px 90px 50px; */
-}
-.services-head{
-    color: rgba(35, 2, 2, 0.732);
-    /* background: rgba(35, 2, 2, 0.732); */
-    border-radius: 20px;
-    padding: 10px 10px;
-    display: flex;
-    /* width: fit-content; */
-    /* color: azure; */
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    font-weight: 900;
-    font-family: sans-serif;
-}
-.services ul{
-    margin: 15px 25px;
-    font-size: 1.2em;
-    letter-spacing: 1.5px;
-    display: inline flex;
-    gap: 80px;
-}
-
-.nav-footer{
-    /* background: azure; */
-    margin: 90px 0;
-    height: fit-content;
-    
-}
-.contact-head{
-    background: rgba(35, 2, 2, 0.732);
-    /* border-radius: 20px; */
-    padding: 10px 10px 10px 80px;
-    display: flex;
-    /* width: fit-content; */
-    color: azure;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    font-size: 1.2em;
-    /* align-content: center; */
-
-    
-}
-
-
-.footercontent{
-    /* align-content: space-around; */
-    display: inline flex;
-    gap: 500px;
-
-}
-.gmail{
-    display: flex;
-    margin: 50px 100px;
-    font-size: 1.2em;
-}
-.gmail a{
-    text-decoration: none;
-    color: black;
-}
-.gmail i{
-    background-color: rgba(35, 2, 2, 0.732);
-    color: #ffffff;
-    
-}
-.email-add{
-    font-size: smaller
-}
-.othercontact{
-    display: inline flex;
-    margin: 20px;
-    gap: 35px;
-    margin-right: 50px;
-    /* text-decoration: none;
-    color: rgb(20, 13, 13); */
-} 
-.othercontact a{
-    text-decoration: none;
-    font-size: 1rem;
-    display: flex;
-    gap: 5px;
-    color: black;
-    margin-top: 10px;
-    
-}
-.othercontact i{
-    background-color: rgba(35, 2, 2, 0.732);
-    color: #ffffff;
+.logo{
     font-size: 3em;
+    letter-spacing: 2px;
+    background-color: rgb(4, 94, 173);
+    border-radius: 5px;
+    align-content: baseline;
+    font-weight: bold;
+    color: rgba(240, 248, 255, 0.678);
+    
+
 }
-.othercontact i:hover{
-    background: rgb(239, 225, 225);
-    color: rgba(35, 2, 2, 0.732);
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: beige;
+    position: relative;
+    border-radius: 10px;
 }
-.form {
+.menu a:before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 2px solid indianred;
+    transition: 4s linear;
+    
+}
+.menu a:hover:before{
+    width: 90%;
+}
+.cart a{
+    text-decoration: none;
+    color: black;
+    background-color: indianred;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-block-end: 80px;
-    height: 0px;
-
-    
-    
 }
-.form input{
-    border: none;
-    outline: none;
-    border-radius: 10px 0 0 10px;
-    padding: 20px 200px;
-    background: #ffffff;
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.685);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
 }
-.form button{
-    padding: 20px;
-    border: none;
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
     outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.904);
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.479);
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:58629b;
     cursor: pointer;
-    background: rgba(35, 2, 2, 0.732);
-    color: #ffffff;
-    border-radius: 0 10px 10px 0;
 }
-.form button:hover{
-    background-color: #b18686;
-    color: black;
+.nav2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.form input::placeholder{
+.services a{
+    text-decoration: none;
     color: black;
-    
+    padding: 10px 20px;
+    background-color: rgba(245, 245, 220, 0.548);
+    border-radius: 10px;
 }
