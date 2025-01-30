@@ -1,41 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Scanner by Richa Jaiswal</title>
+    <title>Portfolio of Richa</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="container">
-        <h2>QR Code Scanner or Reader</h2>
-        <div class="qr-code-view">
-            <input type="file" accept="images/*" hidden>
 
-            <img>
-            <video></video>
-            <div class="icons">
-                <i class='bx bxs-camera-plus'onclick="scanQRcode.click()" ></i>
-                <!-- <i class='bx bxs-camera'></i> -->
-                <i class='bx bx-upload' onclick="file_input.click()"></i>
-                <p>Upload or Scan QR Code to Read</p>
-            </div>
-    </div>
+    <nav>
 
-            <div class="qr-text">
-                <textarea disabled></textarea>
-                <div class="button">
-                    <button class="copy" onclick="copyQRtext()">Copy</button>
-                    <button class="close" onclick="closeQRscanner()">Close</button>
-                </div>
-           </div>
+        <div class="nav-logo">
+            <h1>Richa's <span class="Portfolio">Portfolio</span></h1>
+        </div>
+        <div class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">Skills</a>
+            <a href="#">My Projects</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Me</a>
         </div>
 
-  <script src="script.js"></script>
-  <script type="text/javascript"
-  src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
-   
+    </nav>
+    <main>
+        <!-- <image class="img" src="./image/richa circular img.png" alt=""></image> -->
+         <div class="frontpage">
+        <div class="img">
+            <img src="./image/richaimg.png" width="350px" alt="">
+        </div>
+        <div class="home-content">
+            <h3>Hi, i'm</h3>
+            <h1>Richa Jaiswal</h1>
+            <h3>I am a <span class="fdev">Frontend Developer</span></h3>
+            <p>I am a very passionate web developer and my specification lies in Frontend. I have keen interest in
+                developing website and designing it.</p>
+            <div class="reachme">
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <h4> <span class="buttn-box">Know More</span></h4>
+            </div>
+        </div>
+    </div>
+
+        <div class="about">
+            <h2> <span class="about-head">About</span></h2>
+            <p>
+                <br>I am a passionate Frontend Web Developer and very much keen to learn and explore more in the same
+                domain.
+                <br>
+                I am currently pursuing Bachelor of Technology from Madan Mohan Malaviya University of Technology in
+                Electrical Engineering with current aggregate of 8.22 CGPA.
+                <br>
+                <br>
+                I have completed my high school from Lakshya Raj Public School with aggregate of 95% and
+                intermediate from Vaishali Kendriya Rajeshwar Secondary School with 81.2% in PCM.
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellendus asperiores modi tempora
+                esse ratione debitis quisquam eos earum magni maiores incidunt quo dignissimos obcaecati! Totam saepe
+                qui quas laborum nam officiis.
+                <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nisi eligendi at?
+            </p>
+        </div>
+        <div class="skills">
+            <h2><span class="skills-head">Skills</span></h2>
+            <ul>
+                <li>HTML <i class='bx bxl-html5'></i> </li>
+                <li>CSS <i class='bx bxl-css3'></i></li>
+                <li>JavaScript <i class='bx bxl-javascript'></i></li>
+                <li>CPP <i class='bx bxl-c-plus-plus'></i></li>
+
+            </ul>
+        </div>
+        <div class="projects">
+            <!-- <h2><a href="#">See My Projects.....</a></h2> -->
+            <h2><span class="projects-head">My Projects</span></h2> 
+        <ul><li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+        <li><a href="#">Created the clone of Amazon using HTML, CSS, JavaScript.</a></li>
+    </ul>
+        </div> 
+        <div class="services">
+            <h2><span class="services-head">Services</span></h2>
+
+            <ul>
+                
+                <li>Frontend Developer</li>
+                <li>Freelancing</li>
+                <li>Website Designing</li>
+                <li>Content Writing</li>
+                <li>Sales Manager</li>
+                <li>Social Media Handling</li>
+            </ul>
+        </div>
+        
+
+
+    </main>
+    <div class="nav-footer">
+        <h2><span class="contact-head">Contact Me</span></h2>
+        <div class="footercontent">
+            <div class="gmail">
+                <h3><i class='bx bxl-gmail'></i><a href="#">Email: <span
+                            class="email-add">jaiswalricha035@gmail.com</span></a></h3>
+            </div>
+            <div class="othercontact">
+                <h4><i class='bx bxl-linkedin'></i><a href="#">Linkedin</a></h4>
+                <h4><i class='bx bxl-whatsapp'></i><a href="#">WhatsApp</a></h4>
+                <h4><i class='bx bxl-instagram'></i> <a href="#">Instagram</a></h4>
+            </div>
+        </div>
+        
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Type your message here.....">
+        <button>Submit</button>
+            
+    </div>
+    <script src="script.js"></script>
+
 
 </body>
+
 </html>
